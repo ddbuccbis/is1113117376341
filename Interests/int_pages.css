@@ -1,6 +1,25 @@
-#section1{
-    background-color: rgb(255, 0, 0);
+
+
+body,html{
+    width:100%;
+    height:100%;
 }
+
+#section1{
+    background:red;
+}
+
+#section1 img{
+    width:100%;
+    
+}
+
+#section1 h1{
+    font-size:30px;
+}
+ 
+
+
 
 #section2{
     background-color: rgb(72, 0, 0);
