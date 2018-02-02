@@ -28,5 +28,5 @@ function enablebtnProceed(){
 }
 
 function disablebtnProceed() {
-    $('#btnProceed').prop('disabled', true);
+    $('#btnProceed').prop('disabled', true);""
 }
