@@ -10,12 +10,13 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="ebusiness/Ebus2_validator.js"></script>
     </head>
     <body>
         <h4>Please enter your payment details</h4>
         
         
-            <form action="eBus3.php" method="POST">
+            <form action="ebusiness/Ebus3.php" method="POST">
 
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
@@ -34,6 +35,6 @@ session_start();
        
         </div>
         
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        
     </body>
 </html>
