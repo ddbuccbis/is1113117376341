@@ -4,10 +4,10 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>RECIEPT</title>
+        <title>RECEIPT</title>
     </head>
     <body>
-        <h4>RECIEPT</h4>
+        <h4>RECEIPT</h4>
         
         <?php
         // Echo session variables that were set on previous page
