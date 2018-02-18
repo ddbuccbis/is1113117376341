@@ -1,29 +1,54 @@
+*{
+    margin:0;
+}
+
+html,body{
+    height:100%;
+}
+
+
+ul li{
+    list-style: disc;
+    display:inline;
+    position:relative;
+    top:30%;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    margin:10px;
+}
+
+ul{
+    background:transparent; 
+    height: 20%;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+}
+
+ul li a:hover{
+    color:red;
+    background:white;
+    padding:2%;
+}
+
+
 .mainheading{
+    height: 5%;
     text-align: center;
 }
 
-body {
-    background-image: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/grass/green-striped-grass-soccer-football-field-background-header.jpg");
-    background-repeat: no-repeat
-    
-    
-}
 
-button{
-    background-color: #b82323;
-    position:absolute;
-    left:40%;
-}
-
-button:hover { 
-    color: white;
+html { 
+  background: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/grass/green-striped-grass-soccer-football-field-background-header.jpg") no-repeat center center fixed; 
+  background-size: cover;
 }
 
 
-    
-.CVbuttoncontainer{
-    position:relative;
-    left:-6%;
-    top:10%;
-}
+.background{
+    background: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/grass/green-striped-grass-soccer-football-field-background-header.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  }
 
