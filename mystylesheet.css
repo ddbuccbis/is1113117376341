@@ -6,6 +6,10 @@ html,body{
     height:100%;
 }
 
+html {
+            background: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/grass/green-striped-grass-soccer-football-field-background-header.jpg") no-repeat center center fixed; 
+  background-size: cover;
+        }
 
 ul li{
     list-style: disc;
@@ -26,6 +30,7 @@ ul{
     width:100%;
     position: absolute;
     z-index: 2;
+    opacity: 1;
 }
 
 ul li a:hover{
@@ -38,17 +43,24 @@ ul li a:hover{
 .mainheading{
     height: 5%;
     text-align: center;
+    opacity: 1;
 }
 
 
-html { 
-  background: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/grass/green-striped-grass-soccer-football-field-background-header.jpg") no-repeat center center fixed; 
-  background-size: cover;
+mainheading {
+    text-align: center;
+    opacity: 1;
+    color: black;
 }
 
+h1{
+     text-align: center;
+    opacity: 1;
+    color: white;
+}
 
-.background{
-    background: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/grass/green-striped-grass-soccer-football-field-background-header.jpg") no-repeat center center fixed; 
-  background-size: cover;
-  }
-
+p{
+      text-align: center;
+    opacity: 1;
+    color: black;
+}
