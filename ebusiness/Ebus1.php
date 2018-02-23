@@ -52,23 +52,7 @@
               </label>
               
               <br/>
-              
-              <label for="discount">
-                Discount @ 5% 
-                (- Discount)
-                <input type="text" id="discount" name="discount" value="0.00" readonly/>
-              </label>
-              
-              <br/>
-              
-              <label for="vat">
-                VAT @ 10% 
-                (- Discount, + VAT)
-                <input type="text" id="vat" name="vat" value="0.00" readonly/>
-              </label>
-              
-              <br/>
-              
+             
               <label for="total">
                 Total
                 <input type="text" id="total"  name="total" value="0.00" readonly/>
