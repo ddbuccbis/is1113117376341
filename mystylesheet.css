@@ -15,18 +15,18 @@ ul li{
     list-style: disc;
     display:inline;
     position:relative;
-    top:30%;
+    top:32.5%;
 }
 
 ul li a{
     text-decoration:none;
     color:white;
-    margin:10px;
+    margin:5px;
 }
 
 ul{
-    background:transparent; 
-    height: 20%;
+    background:grey; 
+    height: 10%;
     width:100%;
     position: absolute;
     z-index: 2;
@@ -37,7 +37,7 @@ ul{
 ul li a:hover{
     color:red;
     background:white;
-    padding:2%;
+    padding:2.2%;
 }
 
 

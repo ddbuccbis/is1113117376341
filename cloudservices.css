@@ -1,0 +1,102 @@
+*{
+    margin:0;
+}
+
+html,body{
+    height:100%;
+}
+        
+body {
+    background: url("http://www.bmclark.org/accuwx_blog/093012/100_0330.JPG") no-repeat center center fixed; 
+  background-size: cover;
+        }
+
+ul li{
+    list-style: disc;
+    display:inline;
+    position:relative;
+    top:32.5%;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    margin:5%;
+}
+
+ul{
+    background:black; 
+    height: 10%;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    color: white;
+}
+
+ul li a:hover{
+    color:black;
+    background:#89cff0;
+    padding:2.2%;
+}
+
+
+.mainheading{
+    height: 5%;
+    text-align: center;
+    opacity: 1;
+}
+
+
+mainheading {
+    text-align: center;
+    opacity: 1;
+    color:#89cff0;
+}
+
+h1{
+     text-align: center;
+    opacity: 1;
+    color:#89cff0;
+}
+
+
+#boxsalesforce {
+    position: absolute;
+  background-color: #cfc ;
+  padding: 1%;
+  border: 5px solid green ;
+  top:30%;
+  left: 1%;
+  width:17%;
+}
+
+#boxcloud9 {
+    position: absolute;
+  background-color: #cfc ;
+  padding: 1%;
+  border: 5px solid green ;
+  top:30%;
+  left: 25%;
+  width:17%;
+}
+
+#boxaws {
+    position: absolute;
+  background-color: #cfc ;
+  padding: 1%;
+  border: 5px solid green ;
+  top:30%;
+  left: 49%;
+  width:20%;
+}
+
+#boxgmail {
+    position: absolute;
+  background-color: #cfc ;
+  padding: 1%;
+  border: 5px solid green ;
+  top:30%;
+  left: 75%;
+  width:18%;
+}
