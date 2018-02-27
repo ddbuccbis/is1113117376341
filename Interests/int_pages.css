@@ -10,7 +10,8 @@ body,html{
 }
 
 #section1 img{
-    width:100%;
+    width:80%;
+    height: 50%;
     
 }
 
@@ -29,7 +30,8 @@ body,html{
 }
 
 #section2 img{
-    width:100%;
+    width:80%;
+    height: 40%;
     
 }
 
@@ -48,7 +50,8 @@ body,html{
 }
 
 #section3 img{
-    width:100%;
+    width:80%;
+    height: 60%;
     
 }
 

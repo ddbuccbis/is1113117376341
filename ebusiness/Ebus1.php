@@ -39,11 +39,13 @@
               <br/>
               
               <label for="gmail">
-                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $400
+                <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
+                Gmail @ $400
               </label>
               
+              <br/>
               
+              <br/>
               <br/>
               
               <label for="subtotal">
@@ -52,7 +54,23 @@
               </label>
               
               <br/>
-             
+              
+              <label for="discount">
+                Discount @ 5%
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
+              <label for="vat">
+                Vat @ 10%
+                <input type="text" id="vat" name="vat" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
+              
+              
               <label for="total">
                 Total
                 <input type="text" id="total"  name="total" value="0.00" readonly/>

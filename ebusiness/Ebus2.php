@@ -10,7 +10,6 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="Ebus2_validator.js"></script>
     </head>
     <body>
         <h4>Please enter your payment details</h4>
@@ -35,6 +34,6 @@ session_start();
        
         </div>
         
-        
+        <script type="text/javascript" src="Ebus2_validator.js"></script>
     </body>
 </html>
