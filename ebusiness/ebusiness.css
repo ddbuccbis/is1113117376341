@@ -1,0 +1,263 @@
+body{
+    background: url("https://ak2.picdn.net/shutterstock/videos/10049612/thumb/1.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+#btnProceed{
+    position: absolute;
+    top: 105%;
+    left: 15%;
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 90%;
+}
+
+#btnProceed:hover{
+    cursor: pointer;
+    position: absolute;
+    top: 105%;
+    left: 15%;
+    
+    background-color: white;
+    border: solid 1px #4CAF50;
+    color: #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 90%;
+    
+}
+
+
+.btnClear{
+    position: absolute;
+    top: 39%;
+    left: 52%;
+    
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 6px 6px;
+    border: solid 1px red;
+    border-radius: 6px;
+}
+
+.btnClear:hover{
+    position: absolute;
+    top: 39%;
+    left: 52%;
+    
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    padding: 6px 6px;
+    border: solid 1px red;
+    border-radius: 6px;
+}
+
+
+#btnCalculate{
+    position: absolute;
+    top: 39%;
+    left: 0%;
+    
+    background-color: #ffd700;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#btnCalculate:hover{
+    background-color: white;
+    color: #ffd700;
+    border: 2px solid #ffd700;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    cursor: pointer;
+}
+
+
+#ebus1heading{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    color: black;
+    text-decoration: underline;
+}
+
+#ebus2heading{
+    position: absolute;
+    top: 25%;
+    left: 44.5%;
+    color: black;
+    text-decoration: underline;
+}
+
+#ebus2boxes{
+     position: absolute;
+    left: 40%;
+    top: 45%;
+}
+
+#ebus3heading{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    color: black;
+    text-decoration: underline;
+}
+
+#radiobuttons{
+    position: absolute;
+    left: 43%;
+    top: 35%;
+}
+
+.lblsubtotal{
+    position: absolute;
+    top: 47%;
+    left: 41.2%;
+}
+
+.lbldiscount{
+    position: absolute;
+    top: 53%;
+    left: 38.25%;
+}
+
+.lblvat{
+    position: absolute;
+    top: 59%;
+    left: 40.3%;
+}
+
+.lbltotal{
+    position: absolute;
+    top: 65%;
+    left: 43.3%;
+}
+
+ul li{
+    list-style: disc;
+    display:inline;
+    position:relative;
+    top:32.5%;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    margin:5%;
+}
+
+ul{
+    background:black; 
+    height: 10%;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    color: white;
+}
+
+ul li a:hover{
+    color:black;
+    background:#89cff0;
+    padding:2.2%;
+}
+
+h1{
+     text-align: center;
+    opacity: 1;
+    color:#89cff0;
+}
+
+
+
+#btnValidate{
+     position: absolute;
+    top: 62%;
+    left: 47%;
+    
+    background-color: #ab4700;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#btnValidate:hover{
+    position: absolute;
+    top: 62%;
+    left: 47%;
+    
+    background-color: white;
+    color: #ab4700;
+    border: 2px solid #ab4700;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    cursor: pointer;
+}
+
+#btnPurchase{
+     position: absolute;
+    top: 68%;
+    left: 43%;
+    
+    background-color: #4CAF50;
+    color: white;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#btnPurchase:hover{
+     position: absolute;
+    top: 68%;
+    left: 43%;
+    
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    cursor: pointer;
+}
+
+.ebus3style{
+     position: absolute;
+    left: 40%;
+    top: 45%;
+}
+
+.ebus3text{
+     position: absolute;
+    left: 31%;
+    top: 60%;
+}

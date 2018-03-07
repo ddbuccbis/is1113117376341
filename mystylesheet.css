@@ -21,7 +21,7 @@ ul li{
 ul li a{
     text-decoration:none;
     color:white;
-    margin:5px;
+    margin:3%;
 }
 
 ul{
@@ -70,4 +70,24 @@ p{
     position: absolute;
     top: 50%;
     left: 43%;
+}
+
+.cvintro{
+    text-align: center;
+    font-size: 150%;
+    position: absolute;
+    background-color: lightgrey; opacity: .75;
+    padding: 1%;
+    border: 20px green;
+    top:60%;
+    left: 29.5%;
+    width:40%;
+    height: 25%;
+}
+
+#ucclogo{
+    position: absolute;
+    top: 30%;
+    left: 38.5%;
+    
 }

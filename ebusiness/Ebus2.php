@@ -7,33 +7,58 @@ session_start();
 <html>
     <head>
         <title>Enter Details</title>
-        
+         <link rel="stylesheet" href="ebusiness.css" type="text/css"/>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
-        <h4>Please enter your payment details</h4>
+        <h1 class="h1"><font color=#800020 face="courier">Stratus: Cloud Services Ltd.</font></h1>
+         <ul>
+         <li><a href="cloudhomepage.html">Home</a></li>
+        <li><a href="aboutcloud.html">About Cloud</a></li>
+        <li><a href="../cloudproducts.html"><font color=#800020>Shop</a></li>
+        <li><a href="cloudcontact.html">Contact Us</a></li> </ul>
+        
+        <h2 class="title" id="ebus2heading">Enter Details</h2>
         
         
-            <form action="Ebus3.php" method="POST">
-
-                    <label for="user_pin">PIN</label>
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+        <form action="Ebus3.php" method="POST" class="ebus2">
+            
+            <div class="container" id="ebus2boxes">
+                
+            <label for="user">Name: </label>
+            <input type="name" id="user" name="user" placeholder="Name" maxlength="30"/>
+            
+            <br/>
+            <br/>
+            
+            <label for="userEmail">Email Address: </label>
+            <input type="email" id="userEmail" name="userEmail" placeholder="example@email.com" maxlength="40">
+            
+            <br/>
+            <br/>
+            
+             <label for="userPin">PIN: </label>
+             <input type="password" id="userPin" placeholder="(4 Numbers Only)" maxlength="4">
+             
+             </div>
 
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-              
+                
+            
             </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <a role="button" onClick="validateDetails()" id="btnValidate">Validate</a>
+            
+          
             
             <?php
-            // set session variables
             $_SESSION["total"] = $_POST["total"];
             ?>
        
-        </div>
         
-        <script type="text/javascript" src="Ebus2_validator.js"></script>
+        <script type="text/javascript" src="Ebus2_validator.js"></script></div>
+           
     </body>
 </html>

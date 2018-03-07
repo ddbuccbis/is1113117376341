@@ -58,47 +58,260 @@ h1{
 
 #boxsalesforce {
     position: absolute;
-  background-color: #cfc ;
+  background-color: lightgrey ;
   padding: 1%;
-  border: 5px solid green ;
-  top:30%;
+  border: 5px solid #4CAF50;
+  top:65%;
   left: 1%;
   width:17%;
-  height: 45%;
+  height: 55%;
 }
 
 #boxcloud9 {
     position: absolute;
-  background-color: #cfc ;
+  background-color: lightgrey;
   padding: 1%;
-  border: 5px solid green ;
-  top:30%;
+  border: 5px solid #4CAF50;
+  top:65%;
   left: 25%;
   width:18%;
-  height: 45%;
+  height: 55%;
 }
 
 #boxaws {
     position: absolute;
-  background-color: #cfc ;
+  background-color: lightgrey;
   padding: 1%;
-  border: 5px solid green ;
-  top:30%;
+  border: 5px solid #4CAF50;
+  top:65%;
   left: 49%;
   width:18%;
-  height: 45%;
+  height: 55%;
 }
 
 #boxgmail {
     position: absolute;
-  background-color: #cfc ;
+  background-color:lightgrey;
   padding: 1%;
-  border: 5px solid green ;
-  top:30%;
+  border:5px solid #4CAF50;
+  top:65%;
   left: 75%;
   width:18%;
-  height: 45%;
+  height: 55%;
 }
 .boxes{
     color: black;
+}
+
+#salesforcelogo{
+    position: absolute;
+    top: 22%;
+    left: 2%;
+    width:18%;
+    height:30%;
+    
+}
+
+#cloud9logo{
+    position: absolute;
+   top:22%;
+  left: 26%;
+  width:18%;
+  height: 30%;
+}
+
+#awslogo{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    width:18%;
+    height:30%;
+}
+
+#gmaillogo{
+    position: absolute;
+    top: 22%;
+    left: 76%;
+    width:18%;
+    height:30%;
+}
+
+#linksalesforce{
+      position: absolute;
+    top: 56%;
+    left: 6%;
+    
+    background-color: #4CAF50;
+    color: lightgrey;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#linksalesforce:hover{
+      position: absolute;
+    top: 56%;
+    left: 6%;
+    
+    background-color: lightgrey;
+    color: #4CAF50;
+    border: solid 1px lightgrey;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#linkcloud9{
+      position: absolute;
+    top: 56%;
+    left: 30%;
+    
+    background-color: #4CAF50;
+    color: lightgrey;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#linkcloud9:hover{
+      position: absolute;
+    top: 56%;
+    left: 30%;
+    
+    background-color: lightgrey;
+    color: #4CAF50;
+    border: solid 1px lightgrey;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#linkaws{
+      position: absolute;
+    top: 56%;
+    left: 54%;
+    
+    background-color: #4CAF50;
+    color: lightgrey;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#linkaws:hover{
+      position: absolute;
+    top: 56%;
+    left: 54%;
+    
+    background-color: lightgrey;
+    color: #4CAF50;
+    border: solid 1px lightgrey;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#linkgmail{
+      position: absolute;
+    top: 56%;
+    left: 80.5%;
+    
+    background-color: #4CAF50;
+    color: lightgrey;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#linkgmail:hover{
+      position: absolute;
+    top: 56%;
+    left: 80.5%;
+    
+    background-color: lightgrey;
+    color: #4CAF50;
+    border: solid 1px lightgrey;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#home_cloudproducts{
+     position: absolute;
+    top: 130%;
+    left: 35%;
+    
+    background-color: #4CAF50;
+    color: lightgrey;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#home_cloudproducts:hover{
+      position: absolute;
+    top:130%;
+    left: 35%;
+    
+    background-color: lightgrey;
+    color: red;
+    border: solid 1px lightgrey;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#shop_cloudproducts{
+     position: absolute;
+    top:130%;
+    left: 51%;
+    
+    background-color: #4CAF50;
+    color: lightgrey;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+}
+
+#shop_cloudproducts:hover{
+      position: absolute;
+    top: 130%;
+    left: 51%;
+    
+    background-color: lightgrey;
+    color: #4CAF50;
+    border: solid 1px lightgrey;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
 }
