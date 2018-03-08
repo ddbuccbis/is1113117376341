@@ -1,0 +1,130 @@
+*{
+    margin:0;
+}
+
+html,body{
+    height:100%;
+}
+        
+body {
+    background: url("http://www.bmclark.org/accuwx_blog/093012/100_0330.JPG") no-repeat center center fixed; 
+  background-size: cover;
+        }
+        
+        /*styling navbar*/
+        
+ul li{
+    list-style: disc;
+    display:inline;
+    position:relative;
+    top:32.5%;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    margin:5%;
+}
+
+ul{
+    background:black; 
+    height: 10%;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    color: white;
+}
+
+ul li a:hover{
+    color:black;
+    background:#89cff0;
+    padding:2.2%;
+}
+
+
+.mainheading{
+    height: 5%;
+    text-align: center;
+    opacity: 1;
+}
+
+
+
+h1{
+     text-align: center;
+    opacity: 1;
+    color:#89cff0;
+}
+
+/* positioning boxes inside a container */
+
+#boxSaaS{
+    position: absolute;
+  background-color: lightgrey ;
+  padding: 1%;
+  border: 5px solid #4CAF50;
+  top:150%;
+  left: 1%;
+  width:95%;
+  height: 550%;
+  text-align: center;
+  color: black;
+}
+
+#boxPaaS{
+    position: absolute;
+  background-color: lightgrey ;
+  padding: 1%;
+  border: 5px solid #4CAF50;
+  top:850%;
+  left: 1%;
+  width:95%;
+  height: 550%;
+  text-align: center;
+  color: black;
+}
+
+#boxIaaS{
+    position: absolute;
+  background-color: lightgrey ;
+  padding: 1%;
+  border: 5px solid #4CAF50;
+  top:1550%;
+  left: 1%;
+  width:95%;
+  height: 550%;
+  text-align: center;
+  color: black;
+}
+
+
+#boxCaaS{
+    color: black;
+    position: absolute;
+  background-color: lightgrey ;
+  padding: 1%;
+  border: 5px solid #4CAF50;
+  top:2250%;
+  left: 1%;
+  width:95%;
+  height: 550%;
+  text-align: center;
+}
+
+/*positioning info at bottom of page
+
+#aboutcloudinfo{
+    position: absolute;
+    top: 3150%;
+    left: 10%;
+    width:80%;
+    height:1000%;
+}
+
+#infobanner{
+    position: absolute;
+    top:3000%;
+    left:25%;
+    
+}
