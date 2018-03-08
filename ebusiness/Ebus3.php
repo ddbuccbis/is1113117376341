@@ -12,7 +12,7 @@ session_start();
          <ul>
          <li><a href="aboutcloud.html">About Cloud</a></li>
         <li><a href="cloudproducts.html"><font color=#800020>Shop</a></li>
-        <li><a href="homepage.html">Return to Homepage</a></li>
+        <li><a href="../homepage.html">Return to Homepage</a></li>
         </ul>
         
         <h2 class="title" id="ebus3heading">Receipt</h2>
