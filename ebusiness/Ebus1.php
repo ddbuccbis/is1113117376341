@@ -13,10 +13,9 @@
       
        <h1 class="h1"><font color=#800020 face="courier">Stratus: Cloud Services Ltd.</font></h1>
          <ul>
-         <li><a href="cloudhomepage.html">Home</a></li>
-        <li><a href="aboutcloud.html">About Cloud</a></li>
-        <li><a href="../cloudproducts.html"><font color=#800020>Shop</a></li>
-        <li><a href="cloudcontact.html">Contact Us</a></li> </ul>
+         <li><a href="aboutcloud.html">About Cloud</a></li>
+        <li><a href="cloudproducts.html"><font color=#800020>Shop</a></li>
+        <li><a href="homepage.html">Return to Homepage</a></li>
         
         <h2 class="title" id="ebus1heading">Select A Product</h2>
         

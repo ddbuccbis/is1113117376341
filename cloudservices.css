@@ -64,7 +64,7 @@ h1{
   top:65%;
   left: 1%;
   width:17%;
-  height: 55%;
+  height: 65%;
 }
 
 #boxcloud9 {
@@ -75,7 +75,7 @@ h1{
   top:65%;
   left: 25%;
   width:18%;
-  height: 55%;
+  height: 65%;
 }
 
 #boxaws {
@@ -86,7 +86,7 @@ h1{
   top:65%;
   left: 49%;
   width:18%;
-  height: 55%;
+  height: 65%;
 }
 
 #boxgmail {
@@ -97,7 +97,7 @@ h1{
   top:65%;
   left: 75%;
   width:18%;
-  height: 55%;
+  height: 65%;
 }
 .boxes{
     color: black;
@@ -258,7 +258,7 @@ h1{
 
 #home_cloudproducts{
      position: absolute;
-    top: 130%;
+    top: 140%;
     left: 35%;
     
     background-color: #4CAF50;
@@ -273,7 +273,7 @@ h1{
 
 #home_cloudproducts:hover{
       position: absolute;
-    top:130%;
+    top:140%;
     left: 35%;
     
     background-color: lightgrey;
@@ -288,7 +288,7 @@ h1{
 
 #shop_cloudproducts{
      position: absolute;
-    top:130%;
+    top:140%;
     left: 51%;
     
     background-color: #4CAF50;
@@ -303,7 +303,7 @@ h1{
 
 #shop_cloudproducts:hover{
       position: absolute;
-    top: 130%;
+    top: 140%;
     left: 51%;
     
     background-color: lightgrey;
@@ -314,4 +314,67 @@ h1{
     padding: 6px 6px;
     border-radius: 6px;
     font-size: 95%;
+}
+
+#boxSaaS{
+      position: absolute;
+  background-color: lightgrey ;
+  padding: 1%;
+  border: 5px solid #4CAF50;
+  top:35%;
+  left: 1%;
+  width:95%;
+  height: 50%;
+  text-align: center;
+}
+
+#boxPaaS{
+      position: absolute;
+  background-color: lightgrey ;
+  padding: 1%;
+  border: 5px solid #4CAF50;
+  top:95%;
+  left: 1%;
+  width:95%;
+  height: 50%;
+  text-align: center;
+}
+
+#boxIaaS{
+      position: absolute;
+  background-color: lightgrey ;
+  padding: 1%;
+  border: 5px solid #4CAF50;
+  top:155%;
+  left: 1%;
+  width:95%;
+  height: 50%;
+  text-align: center;
+}
+
+#boxCaaS{
+      position: absolute;
+  background-color: lightgrey ;
+  padding: 1%;
+  border: 5px solid #4CAF50;
+  top:215%;
+  left: 1%;
+  width:95%;
+  height: 50%;
+  text-align: center;
+}
+
+#aboutcloudinfo{
+    position: absolute;
+    top: 285%;
+    left: 10%;
+    width:80%;
+    height:75%;
+}
+
+#infobanner{
+    position: absolute;
+    top:274%;
+    left:25%;
+    
 }

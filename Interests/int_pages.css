@@ -3,28 +3,23 @@
 
 #section1{
     background-color: rgb(255,0,0);
-    text-decoration: underline;
     color: white;
     text-align: center;
 }
 
 #section1 img{
     width:50%;
-    height: 60%;
+    height: 50%;
     
 }
 
 
 #section2{
-    font-size:30px;
-    text-decoration: underline;
     color: white;
     text-align: center;
 }
 
 #section3{
-    font-size:30px;
-    text-decoration: underline;
     color:white;
     text-align: center;
 }
@@ -39,7 +34,7 @@
 
 #section2 img{
     width:45%;
-    height: 45%;
+    height: 40%;
     
 }
 
@@ -53,8 +48,8 @@
 }
 
 #section3 img{
-    width:70%;
-    height: 40%;
+    width:50%;
+    height: 30%;
     
 }
 
@@ -143,3 +138,34 @@
     font-size: 95%;
 }
 
+#home_cloud{
+      position: absolute;
+    top: 92%;
+    left: 46%;
+    
+    background-color: #4CAF50;
+    color: lightgrey;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    z-index: 5;
+}
+
+#home_cloud:hover{
+      position: absolute;
+    top: 92%;
+    left: 46%;
+    
+    background-color: lightgrey;
+    color: #4CAF50;
+    border: solid 1px lightgrey;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 6px;
+    border-radius: 6px;
+    font-size: 95%;
+    z-index: 5;
+}
